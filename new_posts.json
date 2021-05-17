@@ -1,0 +1,78 @@
+{
+    "mina": {
+        "1": {
+            "title": "three",
+            "text": "man mina hh hastam",
+            "comment": 0,
+            "like": 0
+        },
+        "2": {
+            "title": "two",
+            "text": "mina hastam",
+            "comment": 0,
+            "like": 0
+        }
+    },
+    "laya": {
+        "1": {
+            "title": "start",
+            "text": "salam in avalin post ast",
+            "comment": 0,
+            "like": 0
+        },
+        "2": {
+            "title": "dovomin",
+            "text": "salam in dovomin post ast",
+            "comment": 0,
+            "like": 0
+        },
+        "3": {
+            "title": "sevomin",
+            "text": "salam in sevomin post ast",
+            "comment": 0,
+            "like": 0
+        }
+    },
+    "zahra": {
+        "1": {
+            "title": "one",
+            "text": "salam i am zahra",
+            "comment": 0,
+            "like": 0
+        },
+        "2": {
+            "title": "two",
+            "text": "the second post",
+            "comment": 0,
+            "like": 0
+        }
+    },
+    "amir": {
+        "1": {
+            "title": "aval1",
+            "text": "the best ddd xsa",
+            "comment": 0,
+            "like": 0
+        },
+        "2": {
+            "title": "aval2",
+            "text": "python is the best language programming.",
+            "comment": 0,
+            "like": 0
+        },
+        "3": {
+            "title": "aval3",
+            "text": "salam salam",
+            "comment": 0,
+            "like": 0
+        }
+    },
+    "amin": {
+        "1": {
+            "title": "start for writing ",
+            "text": "hi i am here a want to write",
+            "comment": 0,
+            "like": 0
+        }
+    }
+}
