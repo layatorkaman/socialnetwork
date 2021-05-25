@@ -1,164 +1,81 @@
 {
+    "laya": {
+        "username": "laya",
+        "password": "a0d2d15fd50748f34e98717c91729d4e",
+        "number of post": 4
+    },
+    "mrtz": {
+        "username": "mrtz",
+        "password": "8fb413b86b140e749f2eea1d1cac067e",
+        "number of post": 2
+    },
+    "reza": {
+        "username": "reza",
+        "password": "bb98b1d0b523d5e783f931550d7702b6",
+        "number of post": 0
+    },
+    "zoha": {
+        "username": "zoha",
+        "password": "f70fc5ab32e2a7889421fb5b6100181a",
+        "number of post": 0,
+        "follower": [
+            "ali",
+            "amir"
+        ],
+        "profile": {
+            "first name": "zoha",
+            "last name": "amiri",
+            "tel": 9210000,
+            "email": "zoha@yahoo",
+            "bio": "i was born in iran"
+        }
+    },
+    "fatemeh": {
+        "username": "fatemeh",
+        "password": "dab4c6cd0bce8a53457ea105b7002cf1",
+        "number of post": 0
+    },
     "ali": {
         "username": "ali",
-        "password": "aa",
-        "follower": [
-            "emad"
+        "password": "86318e52f5ed4801abe1d13d509443de",
+        "number of post": 0,
+        "following": [
+            "zoha"
         ]
     },
     "zahra": {
         "username": "zahra",
-        "password": "hh",
+        "password": "01e50c681c0b05ff22686b3e0f7290d3",
+        "number of post": 0
+    },
+    "marziye": {
+        "username": "marziye",
+        "password": "7d0a1ec85f77920ce2a48a528e88d53a",
+        "number of post": 0
+    },
+    "amir": {
+        "username": "amir",
+        "password": "63eefbd45d89e8c91f24b609f7539942",
+        "number of post": 0,
         "profile": {
-            "first name": "zahra",
-            "last name": "sori",
-            "tel": 912,
-            "email": "zah@",
-            "bio": "i am zahra"
-        }
-    },
-    "mahsa": {
-        "username": "mahsa",
-        "password": "de",
-        "following": "emad"
-    },
-    "ebi": {
-        "username": "ebi",
-        "password": "k123",
-        "following": "ebi"
-    },
-    "zizi": {
-        "username": "zizi",
-        "password": "1370",
-        "following": "zizi"
-    },
-    "emad": {
-        "username": "emad",
-        "password": "klkl",
-        "following": [
-            "ali"
-        ]
-    },
-    "eli": {
-        "username": "eli",
-        "password": "3434"
-    },
-    "following": [
-        "ali"
-    ],
-    "zoha": {
-        "username": "zoha",
-        "password": "9090",
-        "following": [
-            "ebi"
-        ],
-        "follower": [
-            "ebi"
-        ]
-    },
-    "moti": {
-        "username": "moti",
-        "password": "555",
-        "following": [
-            "zahra",
-            "zizi",
-            "emad"
-        ]
-    },
-    "mohamad": {
-        "username": "mohamad",
-        "password": "80",
-        "following": [
-            "zizi"
-        ]
-    },
-    "fatemeh": {
-        "username": "fatemeh",
-        "password": "66",
-        "following": [
-            "zizi"
-        ],
-        "follower": [
-            "zohreh"
-        ]
-    },
-    "soha": {
-        "username": "soha",
-        "password": "56hj"
-    },
-    "raha": {
-        "username": "raha",
-        "password": "lklk"
-    },
-    "sasan": {
-        "username": "sasan",
-        "password": "gyu"
-    },
-    "mahla": {
-        "username": "mahla",
-        "password": "56ty"
-    },
-    "sofi": {
-        "username": "sofi",
-        "password": "hg6"
-    },
-    "ziba": {
-        "username": "ziba",
-        "password": "7878"
-    },
-    "zizim": {
-        "username": "zizim",
-        "password": "4567"
-    },
-    "hamid": {
-        "username": "hamid",
-        "password": "sf4"
-    },
-    "samira": {
-        "username": "samira",
-        "password": "4545"
-    },
-    "zohreh": {
-        "username": "zohreh",
-        "password": "42tah",
-        "profile": {
-            "first name": "zohreh",
-            "last name": "tahmasebi",
-            "tel": 918854,
-            "email": "zohreh@",
-            "bio": "i am a mum"
-        },
-        "follower": [
-            "amin"
-        ],
-        "following": [
-            "fatemeh"
-        ]
-    },
-    "amirali": {
-        "username": "amirali",
-        "password": "porya5"
-    },
-    "morteza": {
-        "username": "morteza",
-        "password": "63tk"
-    },
-    "amin": {
-        "username": "amin",
-        "password": "80trk",
-        "profile": {
-            "first name": "amin",
-            "last name": "torkaman",
-            "tel": 903,
-            "email": "amin@",
+            "first name": "amir",
+            "last name": "sekhavat",
+            "tel": 9129999,
+            "email": "amir@",
             "bio": "i am a teacher"
         },
         "following": [
-            "zohreh"
+            "zoha"
         ]
     },
-    "soraya": {
-        "username": "soraya",
-        "password": "23d"
+    "ahmad67": {
+        "username": "ahmad67",
+        "password": "e193d260fee421bc67ebfa23c507fa90",
+        "number of post": 0
+    },
+    "azadeh": {
+        "username": "azadeh",
+        "password": "18764d1b037262c50600aec6ee302da3",
+        "number of post": 0
     }
 }
