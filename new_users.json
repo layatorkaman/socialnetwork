@@ -12,7 +12,10 @@
     "reza": {
         "username": "reza",
         "password": "bb98b1d0b523d5e783f931550d7702b6",
-        "number of post": 0
+        "number of post": 0,
+        "follower": [
+            "samar"
+        ]
     },
     "zoha": {
         "username": "zoha",
@@ -77,5 +80,18 @@
         "username": "azadeh",
         "password": "18764d1b037262c50600aec6ee302da3",
         "number of post": 0
+    },
+    "mina": {
+        "username": "mina",
+        "password": "91b827e257eeae8e5989d961fe3011df",
+        "number of post": 0
+    },
+    "samar": {
+        "username": "samar",
+        "password": "cbc3f248a7e3acc6b6aac74efc6dc9d1",
+        "number of post": 0,
+        "following": [
+            "reza"
+        ]
     }
 }

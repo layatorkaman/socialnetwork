@@ -4,7 +4,6 @@ import myjson
 import logging
 import time
 from hashlib import md5
-import datetime
 
 mylogger = logging.getLogger(__name__)
 mylogger.setLevel(logging.INFO)
@@ -46,11 +45,14 @@ def menu_of_myaccount(myname):
 
         elif select3 == 2:
             data = myjson.load_with_json("new_users.json")
-            r = data[myname.username]["profile"]
-
-            print(f"my name is {r['first name'] + r['last name']}"
-                  f" and my telephone number is {r['tel']} and my Email is {r['email']} and {r['bio']}")
-            menu_of_myaccount(myname)
+            try:
+                r = data[myname.username]["profile"]
+                print(f"my name is {r['first name'] + r['last name']}"
+                      f" and my telephone number is {r['tel']} and my Email is {r['email']} and {r['bio']}")
+                menu_of_myaccount(myname)
+            except KeyError:
+                print('you need to make your profile first')
+                menu_of_myaccount(myname)
 
         elif select3 == 3:
             data = myjson.load_with_json("new_users.json")
@@ -190,19 +192,25 @@ def menu_of_myaccount(myname):
             data = myjson.load_with_json("new_users.json")
             t = data[question2]
             if "follower" in t.keys():
-                data[questtion2]["follower"].append(myname.username)
+                data[question2]["follower"].append(myname.username)
                 myjson.dump_in_json("new_users.json", data[question2], question2)
             else:
                 myjson.dump_in_json("new_users.json", [myname.username], question2, "follower")
 
         elif select5 == 2:
             data = myjson.load_with_json("new_users.json")
-            print(data[myname.username]["following"])
+            try:
+                print(data[myname.username]["following"])
+            except KeyError:
+                print("you have not got any following")
             menu_of_myaccount(myname)
 
         elif select5 == 3:
             data = myjson.load_with_json("new_users.json")
-            print(data[myname.username]["follower"])
+            try:
+                print(data[myname.username]["follower"])
+            except KeyError:
+                print("you have not got any follower")
             menu_of_myaccount(myname)
 
         elif select5 == 4:
